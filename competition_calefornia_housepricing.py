@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score,mean_squared_error,mean_absolute_error
 from sklearn.impute import SimpleImputer
 
-path = "C:/Users/Adwait Tagalpallewar/Downloads/home-data-for-ml-course/train.csv"
+path = "data/train.csv"
 df = pd.read_csv(path)
 
 print(df.head())
@@ -87,7 +87,7 @@ print("MSE: ",mean_squared_error(y_validate,y_pred),'\n', #692130828.48
 #The pipeline seems to have worked after changing n_estimator a few times and i was able to achive an r2_score of 0.838 on the first go which is pretty good,
 #rather I can conclude this model is completed here, now its time to predict the values on the test dataset and prepare the submission CSV
 
-test_path = "C:/Users/Adwait Tagalpallewar/Downloads/home-data-for-ml-course/test.csv"
+test_path = "data/test.csv"
 test_df = pd.read_csv(test_path)
 
 print(test_df.head())
@@ -111,3 +111,4 @@ submission = pd.DataFrame({
 })
 
 submission.to_csv("sumission.csv",index= False) #index=False means not to include indexes in the csv 
+
