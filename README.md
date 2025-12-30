@@ -1,6 +1,5 @@
 # housing-prices-KaggleComp-learning
 End-to-end machine learning pipeline for predicting housing prices using scikit-learn, built for the Kaggle Learn Housing Prices competition.
-# Housing Prices Prediction (Kaggle Learn Competition)
 
 ##  Project Overview
 This project focuses on predicting house prices using machine learning techniques on the **Housing Prices Competition for Kaggle Learn Users** dataset.  
