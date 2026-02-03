@@ -36,7 +36,8 @@ All preprocessing and modeling steps were implemented using **scikit-learn Pipel
 
 ##  Model Performance
 - Validation **R² score**: ~0.84  
-- Validation **MAE**: ~17,200  
+- Validation **MAE**: ~17,200
+- Validation **RMSE**: ~26308.379
 - Kaggle Leaderboard Rank: **1963 / 4647 (~Top 42%)**
 
 The evaluation focused on **generalization performance** rather than leaderboard overfitting.
