@@ -150,13 +150,12 @@ house-price-prediction-ml-pipeline/
 ├── submission_DL(1).csv
 └── README.md
 
-
 ---
 
 ## Kaggle Competition
 
 Housing Prices Competition for Kaggle Learn Users  
-kaggle.com/competitions/home-data-for-ml-course
+https://www.kaggle.com/competitions/home-data-for-ml-course
 ---
 
 ## Final Notes
