@@ -143,13 +143,14 @@ Through both iterations, the following important lessons were learned:
 
 ## Repository Structure
 
+```text
 house-price-prediction-ml-pipeline/
 ├── house_price_prediction_classical_ml_approach.py
 ├── housing-prices-competition-deep-learning-approach.ipynb
 ├── submission.csv
 ├── submission_DL(1).csv
 └── README.md
-
+ ```
 ---
 
 ## Kaggle Competition
